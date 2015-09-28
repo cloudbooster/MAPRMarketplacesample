@@ -151,7 +151,7 @@
           {
 
             "name": "MapRpassword",
-            "type": "Microsoft.Common.TextBox",
+            "type": "Microsoft.Common.PasswordBox",
             "label": "MapR softwares password",
             "toolTip": "The password for MapR software.",
             "constraints": {

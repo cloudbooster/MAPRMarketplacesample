@@ -150,7 +150,7 @@
           },
           {
 
-            "name": "MapRpassword",
+            "name": "MapRPassword",
             "type": "Microsoft.Common.PasswordBox",
             "label": "MapR softwares password",
             "toolTip": "The password for MapR software.",
@@ -200,7 +200,7 @@
       "sshKey": "[basics('SSHCredntials').sshPublicKey]",
       "maprVerion": "[steps('MapRClusterConfig').MapRVersion]",
       "clusterEdition": "[steps('MapRClusterConfig').MapRLicenseType]",
-      "maprPassword": "[steps('MapRClusterConfig').MapRpassword]"
+      "maprPassword": "[steps('MapRClusterConfig').MapRPassword]"
     }
   }
 }

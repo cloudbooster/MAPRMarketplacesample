@@ -197,7 +197,10 @@
       "location": "[location()]",
       "authenticationType":  "[basics('SSHCredntials').authenticationType]",
       "password": "[basics('SSHCredntials').password]",
-      "sshKey": "[basics('SSHCredntials').sshPublicKey]"
+      "sshKey": "[basics('SSHCredntials').sshPublicKey]",
+      "maprVerion": "[steps('MapRClusterConfig').MapRVersion]",
+      "clusterEdition": "[steps('MapRClusterConfig').MapRLicenseType]",
+      "maprPassword": "[steps('MapRClusterConfig').MapRpassword]"
     }
   }
 }

@@ -6,7 +6,7 @@
       {
         "name": "clusterName",
         "type": "Microsoft.Common.TextBox",
-        "label": "Cluster name",
+        "label": "MapR Cluster name",
         "toolTip": "The name of the new Sample Linux cluster.",
         "constraints": {
           "required": true,

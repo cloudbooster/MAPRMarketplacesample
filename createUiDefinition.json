@@ -200,7 +200,7 @@
       "sshKey": "[basics('SSHCredntials').sshPublicKey]",
       "maprVersion": "[steps('MapRClusterConfig').MapRVersion]",
       "clusterEdition": "[steps('MapRClusterConfig').MapRLicenseType]",
-      "maprPassword": "[steps('MapRClusterConfig').MapRPassword]"
+      "maprPassword": "[steps('MapRClusterConfig').MapRPassword.password]"
     }
   }
 }
